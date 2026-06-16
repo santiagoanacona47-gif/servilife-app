@@ -164,7 +164,7 @@ Sistema.
 
 ### Resultado esperado
 
-El usuario puede identificar productos que deben revisarse antes de su vencimient
+El usuario puede identificar productos que deben revisarse antes de su vencimiento.
 
 ---
 

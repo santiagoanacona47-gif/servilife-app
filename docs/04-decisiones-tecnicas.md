@@ -130,7 +130,7 @@ La carpeta docs contiene:
 * Prototipo de pantallas.
 * Decisiones técnicas.
 * Bitácora de avances.
-* Guías internas de desarrollo.
+* Lineamientos básicos de desarrollo.
 * Evidencias SENA.
 
 ---
@@ -143,13 +143,13 @@ Se definieron guías internas de desarrollo para orientar la estructura, el alca
 
 ### Justificación
 
-Las guías internas permiten mantener criterios claros sobre el alcance del sistema, la organización del código, la documentación del proyecto y el trabajo colaborativo entre los integrantes del equipo.
+Los lineamientos de desarrollo permiten mantener criterios claros sobre el alcance del sistema, la organización del código, la documentación del proyecto y el trabajo colaborativo entre los integrantes del equipo.
 
 Esto ayuda a evitar cambios fuera del alcance, mantener una estructura ordenada y facilitar la revisión técnica durante el desarrollo.
 
 ### Aplicación en el proyecto
 
-Las guías internas se usan como referencia para revisar avances, validar decisiones técnicas, documentar cambios y mantener coherencia con los requisitos definidos.
+Los lineamientos se usan como referencia para revisar avances, validar decisiones técnicas, documentar cambios y mantener coherencia con los requisitos definidos.
 
 ---
 
@@ -157,18 +157,17 @@ Las guías internas se usan como referencia para revisar avances, validar decisi
 
 ### Decisión
 
-Se definieron roles de apoyo técnico para orientar diferentes aspectos del desarrollo del proyecto.
+Se definieron áreas de revisión técnica para orientar diferentes aspectos del desarrollo del proyecto.
 
 ### Justificación
 
-Separar el trabajo por roles permite revisar el proyecto de forma más ordenada. Cada rol se enfoca en una necesidad específica, como arquitectura, revisión de código, pruebas, documentación o control de versiones.
+Separar la revisión por áreas permite evaluar el proyecto de forma más ordenada. Cada área se enfoca en una necesidad específica, como arquitectura, revisión de código, pruebas, documentación o control de versiones.
 
 ### Roles definidos
 
 * Arquitectura del software
 * Revisión téctica del código.
 * Pruebas y validaciones.
-* Tutoría de programación.
 * Documentador SENA.
 * Control de versiones
 
