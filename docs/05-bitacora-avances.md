@@ -1,4 +1,4 @@
-# Bitácora de avances - ServiLife App
+﻿# Bitácora de avances - ServiLife App
 
 ## Introducción
 
@@ -29,7 +29,7 @@ Construir una aplicación web para monitorear inventario de una droguería media
 
 ---
 
-## Avance 01 - Organización inicial del repositorio
+## Avance 01 - Organización inicial del repositorio y documentación
 
 ### Fecha
 
@@ -37,38 +37,28 @@ Construir una aplicación web para monitorear inventario de una droguería media
 
 ### Objetivo del avance
 
-Organizar la estructura inicial del proyecto para que el código, la documentación y las instrucciones para Codex queden correctamente separadas.
+Organizar la estructura inicial del proyecto para separar el código, la documentación técnica y las evidencias académicas del SENA.
 
 ### Actividades realizadas
 
 * Se identificó la carpeta real del proyecto.
 * Se definió la carpeta principal del código.
 * Se creó la carpeta docs.
-* Se creó la carpeta docs/prompts-codex.
 * Se creó la carpeta docs/evidencias-sena.
-* Se creó el archivo AGENTS.md.
 * Se crearon documentos base para contexto, requisitos, prototipo, decisiones técnicas y bitácora.
 
 ### Archivos creados o modificados
 
-* AGENTS.md
 * docs/00-contexto-proyecto.md
 * docs/01-requisitos-funcionales.md
 * docs/02-requisitos-no-funcionales.md
 * docs/03-prototipo-pantallas.md
 * docs/04-decisiones-tecnicas.md
 * docs/05-bitacora-avances.md
-* docs/prompts-codex/arquitecto.md
-* docs/prompts-codex/reviewer-senior.md
-* docs/prompts-codex/qa-tester.md
-* docs/prompts-codex/tutor.md
-* docs/prompts-codex/documentador-sena.md
-* docs/prompts-codex/git-coach.md
-* docs/prompts-codex/USO-AGENTES-CODEX.md
 
 ### Resultado obtenido
 
-El proyecto cuenta con una estructura documental organizada que permitirá orientar a Codex, facilitar el trabajo colaborativo y mejorar la trazabilidad de los avances.
+El proyecto cuenta con una estructura documental organizada que facilita el trabajo colaborativo, la trazabilidad de los avances y la preparación de evidencias académicas del SENA.
 
 ### Estado
 
@@ -76,7 +66,7 @@ Completado.
 
 ---
 
-## Avance 02 - Creación de instrucciones para Codex
+## Avance 02 - Definición del alcance y criterios de desarrollo
 
 ### Fecha
 
@@ -84,30 +74,26 @@ Completado.
 
 ### Objetivo del avance
 
-Crear instrucciones claras para que Codex pueda apoyar el proyecto como asistente técnico, revisor senior, tutor, documentador, tester y mentor de Git.
+Definir criterios básicos para orientar el desarrollo del proyecto, mantener el alcance controlado y facilitar la revisión técnica del prototipo.
 
 ### Actividades realizadas
 
-* Se creó el archivo AGENTS.md con el contexto principal del proyecto.
 * Se definió el alcance permitido de ServiLife App.
 * Se aclaró que el sistema no debe convertirse en ventas, facturación, caja registradora ni POS.
 * Se definieron reglas para el uso de comentarios temporales en el código.
-* Se crearon prompts especializados para diferentes roles de Codex.
+* Se establecieron criterios para diferenciar prototipo visual y funcionalidad real.
+* Se organizaron lineamientos básicos para documentar avances técnicos.
 
 ### Archivos creados o modificados
 
-* AGENTS.md
-* docs/prompts-codex/arquitecto.md
-* docs/prompts-codex/reviewer-senior.md
-* docs/prompts-codex/qa-tester.md
-* docs/prompts-codex/tutor.md
-* docs/prompts-codex/documentador-sena.md
-* docs/prompts-codex/git-coach.md
-* docs/prompts-codex/USO-AGENTES-CODEX.md
+* docs/00-contexto-proyecto.md
+* docs/02-requisitos-no-funcionales.md
+* docs/04-decisiones-tecnicas.md
+* docs/05-bitacora-avances.md
 
 ### Resultado obtenido
 
-Codex podrá leer instrucciones específicas antes de revisar o modificar el proyecto. Esto permite usarlo de forma más controlada y alineada con los objetivos académicos.
+El proyecto cuenta con criterios claros para orientar el desarrollo, controlar el alcance, mantener una estructura ordenada y facilitar la revisión técnica durante la construcción del prototipo.
 
 ### Estado
 
@@ -226,23 +212,15 @@ Completado.
 
 ## Próximos avances sugeridos
 
-### Avance pendiente 01 - Revisión de index.html con Codex
+### Avance pendiente 01 - Revisión de index.html
 
-Usar el agente Reviewer Senior para revisar el archivo index.html.
-
-Prompt sugerido:
-
-Lee AGENTS.md y luego usa el rol definido en docs/prompts-codex/reviewer-senior.md para revisar index.html. No modifiques código todavía. Dame diagnóstico con hallazgos críticos, importantes y mejoras opcionales.
+Revisar el archivo index.html para identificar posibles mejoras en estructura, comentarios, organización visual y uso de Bootstrap.
 
 ---
 
 ### Avance pendiente 02 - Explicación técnica del prototipo
 
-Usar el agente Tutor para explicar el funcionamiento de index.html.
-
-Prompt sugerido:
-
-Lee AGENTS.md y docs/prompts-codex/tutor.md. Explícame cómo funciona el archivo index.html por bloques. Quiero entender la barra de navegación, Bootstrap, las clases principales y cómo se conecta con el prototipo de ServiLife App.
+Documentar el funcionamiento del archivo index.html por bloques, incluyendo la barra de navegación, el uso de Bootstrap, las clases principales y su relación con el prototipo de ServiLife App.
 
 ---
 
@@ -259,13 +237,9 @@ Agregar secciones visuales para:
 
 ---
 
-### Avance pendiente 04 - Preparar primer commit
+### Avance pendiente 04 - Preparar control de versiones
 
-Usar el agente Git Coach para revisar los cambios y sugerir un commit inicial.
-
-Prompt sugerido:
-
-Lee AGENTS.md y docs/prompts-codex/git-coach.md. Revisa los cambios actuales del repositorio. Sugiere qué archivos incluir en el commit, qué mensaje de commit usar y si conviene separar los cambios en varios commits.
+Revisar los cambios actuales del repositorio, seleccionar los archivos que deben incluirse y registrar un commit claro relacionado con la documentación visible del proyecto.
 
 ---
 

@@ -1,4 +1,4 @@
-# Decisiones técnicas - ServiLife App
+﻿# Decisiones técnicas - ServiLife App
 
 ## Introducción
 
@@ -118,7 +118,7 @@ Se creó una carpeta docs dentro del repositorio.
 
 ### Justificación
 
-La carpeta docs permite organizar la documentación técnica del proyecto y facilitar que Santiago, Johan y Codex entiendan el contexto, requisitos, prototipo y decisiones tomadas.
+La carpeta docs permite organizar la documentación técnica del proyecto y facilitar que Santiago, Johan y el equipo de apoyo técnico entiendan el contexto, requisitos, prototipo y decisiones tomadas.
 
 ### Aplicación en el proyecto
 
@@ -130,54 +130,51 @@ La carpeta docs contiene:
 * Prototipo de pantallas.
 * Decisiones técnicas.
 * Bitácora de avances.
-* Prompts para agentes Codex.
+* Guías internas de desarrollo.
 * Evidencias SENA.
 
 ---
 
-## DT07 - Uso de AGENTS.md
+## DT07 - Uso de guías internas de desarrollo
 
 ### Decisión
 
-Se creó el archivo AGENTS.md en la raíz del proyecto.
+Se definieron guías internas de desarrollo para orientar la estructura, el alcance y la revisión técnica del proyecto.
 
 ### Justificación
 
-AGENTS.md funciona como archivo principal de instrucciones para Codex. En este archivo se define el contexto del proyecto, alcance permitido, reglas de trabajo y restricciones.
+Las guías internas permiten mantener criterios claros sobre el alcance del sistema, la organización del código, la documentación del proyecto y el trabajo colaborativo entre los integrantes del equipo.
+
+Esto ayuda a evitar cambios fuera del alcance, mantener una estructura ordenada y facilitar la revisión técnica durante el desarrollo.
 
 ### Aplicación en el proyecto
 
-Codex debe leer AGENTS.md antes de revisar, modificar o proponer cambios en el código.
+Las guías internas se usan como referencia para revisar avances, validar decisiones técnicas, documentar cambios y mantener coherencia con los requisitos definidos.
 
 ---
 
-## DT08 - Creación de agentes Codex mediante prompts
+## DT08 - Organización de roles de apoyo técnico
 
 ### Decisión
 
-Se crearon prompts especializados para orientar a Codex según diferentes roles.
+Se definieron roles de apoyo técnico para orientar diferentes aspectos del desarrollo del proyecto.
 
 ### Justificación
 
-Dividir el trabajo en roles permite obtener mejores revisiones y evitar que Codex actúe de forma desordenada.
+Separar el trabajo por roles permite revisar el proyecto de forma más ordenada. Cada rol se enfoca en una necesidad específica, como arquitectura, revisión de código, pruebas, documentación o control de versiones.
 
-Cada agente cumple una función específica dentro del desarrollo.
+### Roles definidos
 
-### Agentes definidos
-
-* Arquitecto.
-* Reviewer Senior.
-* QA Tester.
-* Tutor.
+* Arquitectura del software
+* Revisión téctica del código.
+* Pruebas y validaciones.
+* Tutoría de programación.
 * Documentador SENA.
-* Git Coach.
+* Control de versiones
 
 ### Aplicación en el proyecto
 
-Los agentes están ubicados en:
-
-docs/prompts-codex/
-
+Estos roles sirven como referencia interna para organizar revisiones, mejorar la calidad del código, planear pruebas y documentar los avances del proyecto.
 ---
 
 ## DT09 - Uso de comentarios temporales para trabajo en equipo
@@ -277,7 +274,7 @@ La prioridad actual del proyecto es:
 
 * Organizar la documentación.
 * Fortalecer el prototipo visual.
-* Preparar el repositorio para trabajo con Codex.
+* Preparar el repositorio para revisión técnica y trabajo colaborativo.
 * Mejorar la colaboración entre Santiago y Johan.
 * Dejar una base clara para el desarrollo posterior de módulos reales.
 

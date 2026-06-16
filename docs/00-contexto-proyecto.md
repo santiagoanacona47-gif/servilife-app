@@ -125,4 +125,4 @@ Antes de entregar evidencias, los comentarios temporales deben limpiarse o conve
 
 ## Prioridad actual
 
-La prioridad actual es fortalecer el prototipo visual, organizar la documentación del proyecto y preparar el repositorio para que Codex pueda actuar como apoyo técnico, revisor senior, tutor y documentador.
+La prioridad actual es fortalecer el prototipo visual, organizar la documentación del proyecto y preparar el repositorio para que el apoyo técnico asistido pueda actuar como revisor senior, tutor y documentador.

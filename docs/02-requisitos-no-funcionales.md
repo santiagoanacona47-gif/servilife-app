@@ -84,7 +84,7 @@ El código debe estar organizado de forma clara para facilitar futuras modificac
 
 ### Descripción
 
-La estructura del proyecto debe permitir que Santiago, Johan o Codex puedan revisar, mejorar y ampliar el sistema sin perder el control del código.
+La estructura del proyecto debe permitir que Santiago, Johan o el equipo de apoyo técnico puedan revisar, mejorar y ampliar el sistema sin perder el control del código.
 
 ### Criterio de cumplimiento
 
@@ -168,7 +168,7 @@ El proyecto debe contar con documentación técnica básica.
 
 ### Descripción
 
-La documentación debe explicar el contexto del proyecto, requisitos, prototipo, decisiones técnicas, avances y uso de agentes Codex.
+La documentación debe explicar el contexto del proyecto, requisitos, prototipo, decisiones técnicas, avances y el uso de guías internas de desarrollo.
 
 ### Criterio de cumplimiento
 
